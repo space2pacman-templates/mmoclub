@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>MMOClub</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="#" class="header__logo">
+                <img class="header__logo-img" src="image/logo.svg" />
+                <div class="header__logo-text">MMOClub</div>
+            </a>
+            <div class="header__menu">
+                <div class="header__lang">
+                    <img class="header__lang-icon" src="icons/lang.svg">
+                    <div class="header__lang-text">RU</div>
+                </div>
+                <div class="header__notification header__notification-are-awarded">
+                    <img class="header__notification-icon" src="icons/bell.svg">
+                </div>
+                <a href="#" class="header__account">
+                    <div class="header__account-name">kate2kate</div>
+                    <img class="header__account-img" src="image/avatar.png">
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main__left">
+                <div class="menu">
+                    <a href="#" class="menu__link menu__link-icon menu__link-home menu__link--active">Главная</a>
+                    <a href="#" class="menu__link menu__link-icon menu__link-album">База знаний</a>
+                    <a href="#" class="menu__link menu__link-icon menu__link-file-document">Новости</a>
+                    <a href="#" class="menu__link menu__link-icon menu__link-bolt">Поддержка</a>
+                    <a href="#" class="menu__link menu__link-icon menu__link-coffee">Форум</a>
+                    <a href="#" class="menu__link menu__link-icon menu__link-data menu__link--red">Стримы</a>
+                </div>
+                <div class="advertising">
+                    <div class="advertising__content">
+                        <div class="advertising__text">Премиум аккаунт</div>
+                        <div class="advertising__numbers">+15%</div>
+                        <div class="advertising__button">
+                            <a href="#" class="advertising__link">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__right">
+                <div class="section d-flex">
+                    <div class="servers">
+                        <div class="servers__caption">Сервера</div>
+                        <div class="servers__list">
+                            <div class="col-2 server" style="background: url('./image/eternity.png') rgb(0 0 0);">
+                                <div class="server__name">Eternity</div>
+                                <div class="server__status server__status--online"></div>
+                                <div class="server__status-value">200</div>
+                                <div class="server__desc">Обновление каждые 10 минут</div>
+                            </div>
+                            <div class="col-2 server" style="background: url('./image/dragon.png') rgb(0 0 0);">
+                                <div class="server__name">Dragon</div>
+                                <div class="server__status server__status--online"></div>
+                                <div class="server__status-value">200</div>
+                                <div class="server__desc">Обновление каждые 10 минут</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <div class="start__caption">Начать играть</div>
+                        <div class="start__buttons">
+                            <a href="#" class="start__button">
+                                <div class="start__button-text">
+                                    <div class="start__button-caption">Клиент High Five</div>
+                                    <div class="start__button-desc">12.6 GB</div>
+                                </div>
+                                <div class="start__button-download">
+                                    <div class="start__button-download-icon"></div>
+                                </div>
+                            </a>
+                            <a href="#" class="start__button">
+                                <div class="start__button-text">
+                                    <div class="start__button-caption">Патч для игры</div>
+                                    <div class="start__button-desc">456 MB</div>
+                                </div>
+                                <div class="start__button-download">
+                                    <div class="start__button-download-icon"></div>
+                                </div>                            
+                            </a>
+                            <a href="#" class="start__button">
+                                <div class="start__button-text">
+                                    <div class="start__button-caption">Авто-апдейтер</div>
+                                <div class="start__button-desc">14 MB</div>
+                                </div>
+                                <div class="start__button-download">
+                                    <div class="start__button-download-icon"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section d-flex">
+                    <div class="slider">
+                        <div class="slider__caption">Бонусы и акции</div>
+                        <div class="slider__items js-slider-items">
+                            <div class="slider__item" style="background-image: url('image/girl01.png');">
+                                <div class="slider__header">2000 COL</div>
+                                <div class="slider__desc">На старте сервера</div>
+                                <a href="#" class="slider__link">Подробнее</a>
+                            </div>
+                            <div class="slider__item" style="background-image: url('image/girl01.png');">
+                                <div class="slider__header">2000 COL</div>
+                                <div class="slider__desc">На старте сервера</div>
+                                <a href="#" class="slider__link">Подробнее</a>
+                            </div>
+                            <div class="slider__item" style="background-image: url('image/girl01.png');">
+                                <div class="slider__header">2000 COL</div>
+                                <div class="slider__desc">На старте сервера</div>
+                                <a href="#" class="slider__link">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vote">
+                        <div class="vote__caption">Голосуй за нас!</div>
+                        <div class="vote__links">
+                            <a href="#" class="vote__link" style="background-image: url('image/vote-background.png'); background-color: #0035BD;">
+                                <div class="vote__link-icon"></div>
+                                <div>
+                                    <div class="vote__link-text-caption">mmotop.ru</div>
+                                    <div class="vote__link-text-desc">5 Coin of Luck</div>
+                                </div>
+                            </a>
+                            <a href="#" class="vote__link" style="background-image: url('image/vote-background.png'); background-color: #875C1A;">
+                                <div class="vote__link-icon"></div>
+                                <div>
+                                    <div class="vote__link-text-caption">l2top.ru</div>
+                                    <div class="vote__link-text-desc">15 Festival Adena</div>
+                                </div>
+                            </a>
+                            <a href="#" class="vote__link" style="background-image: url('image/vote-background.png'); background-color: #357900;">
+                                <div class="vote__link-icon"></div>
+                                <div>
+                                    <div class="vote__link-text-caption">hopzone.ru</div>
+                                    <div class="vote__link-text-desc">15 Coin of Luck</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section d-flex">
+                    <div class="statistics">
+                        <div class="statistics__caption">Статистика сервера</div>
+                        <div class="statistics__block">
+                            <div class="statistics__header">
+                                <div class="statistics__servers">
+                                    <div class="statistics__server statistics__server--active">Eternity</div>
+                                    <div class="statistics__server">Dragon</div>
+                                </div>
+                                <div class="statistics__filters">
+                                    <div class="statistics__filter statistics__filter--active">pvp</div>
+                                    <div class="statistics__filter">pk</div>
+                                    <div class="statistics__filter">online</div>
+                                    <div class="statistics__filter">clan</div>
+                                    <div class="statistics__filter">heroes</div>
+                                </div>
+                            </div>
+                            <div class="statistics__table">
+                                <div class="statistics__row">
+                                    <div class="statistics__cell">1.</div>
+                                    <div class="statistics__cell">KATE</div>
+                                    <div class="statistics__cell">Ghost Hunter</div>
+                                    <div class="statistics__cell">85 lvl</div>
+                                    <div class="statistics__cell">25 111</div>
+                                </div>
+                                <div class="statistics__row">
+                                    <div class="statistics__cell">1.</div>
+                                    <div class="statistics__cell">KATE</div>
+                                    <div class="statistics__cell">Ghost Hunter</div>
+                                    <div class="statistics__cell">85 lvl</div>
+                                    <div class="statistics__cell">25 111</div>
+                                </div>
+                                <div class="statistics__row">
+                                    <div class="statistics__cell">1.</div>
+                                    <div class="statistics__cell">KATE</div>
+                                    <div class="statistics__cell">Ghost Hunter</div>
+                                    <div class="statistics__cell">85 lvl</div>
+                                    <div class="statistics__cell">25 111</div>
+                                </div>
+                                <div class="statistics__row">
+                                    <div class="statistics__cell">1.</div>
+                                    <div class="statistics__cell">KATE</div>
+                                    <div class="statistics__cell">Ghost Hunter</div>
+                                    <div class="statistics__cell">85 lvl</div>
+                                    <div class="statistics__cell">25 111</div>
+                                </div>
+                                <div class="statistics__row">
+                                    <div class="statistics__cell">1.</div>
+                                    <div class="statistics__cell">KATE</div>
+                                    <div class="statistics__cell">Ghost Hunter</div>
+                                    <div class="statistics__cell">85 lvl</div>
+                                    <div class="statistics__cell">25 111</div>
+                                </div>
+                                <div class="statistics__row">
+                                    <div class="statistics__cell">1.</div>
+                                    <div class="statistics__cell">KATE</div>
+                                    <div class="statistics__cell">Ghost Hunter</div>
+                                    <div class="statistics__cell">85 lvl</div>
+                                    <div class="statistics__cell">25 111</div>
+                                </div>
+                            </div>
+                            <a href="#" class="statistics__link">Смотреть подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section d-flex">
+                    <div class="chart">
+                        <div class="chart__caption">Онлайн серверов</div>
+                        <div class="chart__block">
+                            <div class="chart__header">
+                                <div class="chart__servers">
+                                    <div class="chart__server chart__server--active">Eternity</div>
+                                    <div class="chart__server">Dragon</div>
+                                </div>
+                            </div>
+                            <canvas id="chart__statistics" width="335" height="225"></canvas>
+                        </div>
+                    </div>
+                    <div class="donate">
+                        <div class="donate__caption">Поддержать проект</div>
+                        <div class="donate__block">
+                            <div class="donate__inputs">
+                                <input class="donate__login" type="text" placeholder="Ваш логин...">
+                                <input class="donate__sum" type="text" placeholder="Сумма...">
+                            </div>
+                            <div class="donate__bottom">
+                                <div class="donate__button">Поддержать</div>
+                                <div class="donate__desc">Спасибо, что поддерживаете наш проект материально!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="#" class="footer__logo">
+                <img class="footer__logo-img" src="image/logo-gray.svg" />
+                <div class="footer__logo-text">MMOClub</div>
+            </a>
+            <div class="footer__menu">
+                <a class="footer__menu-link" href="#">База знаний</a>
+                <a class="footer__menu-link" href="#">Статистика</a>
+                <a class="footer__menu-link" href="#">Форум</a>
+                <a class="footer__menu-link" href="#">Файлы</a>
+                <a class="footer__menu-link" href="#">Тикет</a>
+            </div>
+            <div class="footer__social-network-items">
+                <a href="#" class="footer__social-network-item">
+                    <img class="footer__social-network-img" src="image/telegram.svg">
+                </a>
+                <a href="#" class="footer__social-network-item">
+                    <img class="footer__social-network-img" src="image/facebook.svg">
+                </a>
+                <a href="#" class="footer__social-network-item">
+                    <img class="footer__social-network-img" src="image/vk.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/chart.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
